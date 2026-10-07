@@ -19,7 +19,7 @@ dependencies {
 }
 
 loom {
-	noPermissionToUseMojangMappings()
+    // 已不需要呼叫 noPermissionToUseMojangMappings()
 }
 
 tasks.withType(JavaCompile).configureEach {
