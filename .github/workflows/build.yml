@@ -20,4 +20,4 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Gradle
-        run: gradle build --no-daemon --stacktrace
+        run: ./gradlew build --no-daemon --stacktrace
